@@ -9,3 +9,7 @@ header h4 {
 .navRight a{
 	margin: 10px;
 }
+
+.modal-footer a {
+	float: left;
+}

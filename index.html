@@ -12,12 +12,32 @@
 <body>
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
+  	<div class="modal-content">
+  		<h4>Contactos</h4>
+  		<div class="row">
+  			<form class="col s12">
+  				<div class="row">
+  					<div class="input-field col s6">
+  						<i class="material-icons prefix">account_circle</i>
+  						<input id="icon_prefix" type="text" class="validate">
+  						<label for="icon_prefix">Nombre</label>
+  					</div>
+  					<div class="input-field col s6">
+  						<i class="material-icons prefix">phone</i>
+  						<input id="icon_telephone" type="tel" class="validate">
+  						<label for="icon_telephone">Teléfono</label>
+  					</div>
+  					<div class="input-field col s6">
+  						<i class="material-icons prefix">mail</i>
+  						<input id="icon_mail" type="tel" class="validate">
+  						<label for="icon_telephone">E-mail</label>
+  					</div>
+  				</div>
+  			</form>
+  		</div>
+  	</div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" id="save" class="modal-action modal-close waves-effect waves-green btn-flat">Agregar</a>
     </div>
   </div>
   <!-- header -->
@@ -32,13 +52,17 @@
 			</div>
 		</nav>
 	</header>	
-	
+	<section>
+		<div id="cards" class="container"></div>
+	</section>
 		<!-- jquery -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- js propio -->
 	<script src="assets/app.js"></script>
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- fontawesome icon -->
 	<script src="https://use.fontawesome.com/5fc8b62c16.js"></script>
 </body>
