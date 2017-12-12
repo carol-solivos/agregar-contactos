@@ -1,0 +1,11 @@
+header h4 {
+	display: inline-block;
+}
+
+.navRight {
+	float: right;
+}
+
+.navRight a{
+	margin: 10px;
+}
